@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>HALLOWEEN 2026</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato">
+<link rel="stylesheet" href="styles.css">
+
+<style>
+  .bgimg {
+    min-height: 100%;background-position: center;
+    background-size: cover;
+  }
+
+  .bgimg {
+    background-image: url("images/halloween_test_bg.jpeg");
+    background-attachment: fixed;
+  }
+
+  .darken {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("/pictures/Engagement5.jpg");
+  }
+
+  .grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+    grid-auto-rows: minmax(300px, auto);
+    padding:0 32px;
+  }
+
+  .photosample img {
+    object-fit: cover;
+    width: 100%;
+    height: 311px;
+  }
+
+  .photo img {
+    object-fit: cover;
+    width: 100%;
+    height:550px;
+  }
+
+  .wrap {
+    display: flex;
+  }
+  @media screen and (max-width: 600px) {
+    .flex {
+      flex-direction: column-reverse;
+    }
+  }
+</style>
+
+<body class="bgimg">
+  <!-- Header / Home-->
+  <header class="w3-display-container w3-wide darken bgimg" id="home">
+    <div class="w3-display-middle w3-text-white w3-center fade-in">
+      <h1 class="w3-jumbo" style="color:rgb(255, 255, 255); filter: drop-shadow(30px 10px 4px #000)">Virtual Photo Booth</h1>
+      <h2 style="color:rgb(255, 255, 255); filter: drop-shadow(30px 10px 4px #000)">Upload Here!</h2>
+      <h2 style="color:rgb(255, 255, 255); filter: drop-shadow(30px 10px 4px #000)"><b>upload</b></h2>
+    </div>
+  </header>
+</body>
